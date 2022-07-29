@@ -13,3 +13,4 @@ URL: https://github.com/ucsf-bhhi/bhhi.doc
 BugReports: https://github.com/ucsf-bhhi/bhhi.doc/issues
 Imports: 
     fs,
+    quarto,

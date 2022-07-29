@@ -9,3 +9,5 @@ Description: |
     themeing for ggplot and tables.
 Encoding: UTF-8
 LazyData: true
+URL: https://github.com/ucsf-bhhi/bhhi.doc
+BugReports: https://github.com/ucsf-bhhi/bhhi.doc/issues

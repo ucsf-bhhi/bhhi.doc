@@ -1,0 +1,11 @@
+Package: bhhi.doc
+Type: Package
+Title: Quarto & R Markdown Templates for BHHI
+Version: 0.1.0
+Author: Eve Perry
+Maintainer: Eve Perry <eve.perry@gmail.com>
+Description: |
+  Provides BHHI templates for Quarto and R Markdown and
+    themeing for ggplot and tables.
+Encoding: UTF-8
+LazyData: true

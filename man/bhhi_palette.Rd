@@ -4,12 +4,15 @@
 \alias{bhhi_palette}
 \title{BHHI Color Palette}
 \usage{
-bhhi_palette(colors)
+bhhi_palette(colors, names = FALSE)
 }
 \arguments{
 \item{colors}{A character vector with the name(s) of the requested color(s).
 The color names are: "orange", "green", "blue", "purple", "grey", "red",
 "yellow", and "light blue". Leave empty to return the entire palette.}
+
+\item{names}{Should the returned vector have named values? Defaults to FALSE
+to play nicely with ggplot.}
 }
 \value{
 A character vector with the hex codes for the requested color
@@ -20,6 +23,7 @@ Returns a named vector with the BHHI qualitative color palette hex codes.
 }
 \examples{
 bhhi_palette("red")
+bhhi_palette("red", names = TRUE)
 bhhi_palette(c("orange", "green"))
 bhhi_palette()
 }

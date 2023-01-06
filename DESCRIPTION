@@ -1,7 +1,7 @@
 Package: bhhi.doc
 Type: Package
 Title: Quarto & R Markdown Templates for BHHI
-Version: 0.1.0
+Version: 0.2.0
 Author: Eve Perry
 Maintainer: Eve Perry <eve.perry@ucsf.edu>
 Description: |

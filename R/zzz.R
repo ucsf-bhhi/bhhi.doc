@@ -4,9 +4,9 @@
   ggplot2::theme_set(bhhi_ggplot_theme())
 
   thematic::thematic_rmd(
-    bg = "#fff3d9",
-    fg = "black",
-    accent = "#78c2ad",
-    font = "Lato"
+    bg = bhhi_bg(),
+    fg = bhhi_fg(),
+    accent = bhhi_accent(),
+    font = bhhi_font()
   )
 }
